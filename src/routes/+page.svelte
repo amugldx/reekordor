@@ -2,8 +2,8 @@
 	type State = 'ready' | 'ready.countdown' | 'recording';
 	type Optional<T> = T | undefined;
 
-	export let width: Optional<number> = undefined;
-	export let height: Optional<number> = undefined;
+	export let width: Optional<number> = 1920;
+	export let height: Optional<number> = 1080;
 	export let audio = true;
 	export let frameRate = 60;
 
