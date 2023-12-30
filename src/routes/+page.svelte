@@ -100,8 +100,14 @@
 		<h1 class="heading">Reekordor</h1>
 		<p class="sub-heading">
 			Free screen recorder to record your entire screen, window or even a browser tab. It downloads
-			video in webm format. To convert your video in mp4, visit this site i made. And ofcourse its
-			free.
+			video in webm format. To convert your video in mp4, visit <a
+				href="https://vidkonvertor.vercel.app/"
+				target="_blank">Konvertor</a
+			>.Its free.
+		</p>
+		<p class="sub-heading">
+			Made with &#129505 by
+			<a href="https://github.com/amugldx" target="_blank">@amugldx</a>
 		</p>
 	</div>
 	{#if state.includes('ready')}
